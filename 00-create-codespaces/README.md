@@ -36,7 +36,7 @@ Ao final desta etapa, você terá um Codespaces criado a partir do repositório 
 
 ![](img/fork1-1.png)
 
-4. Após clicar no botão, você será redirecionado para a tela de fork do repositório. Deixe a opção `Copy the master branch only` desmarcada como no print para que todas as branches do repositório sejam copiadas. Clique em `Create Fork`.
+4. Após clicar no botão, você será redirecionado para a tela de fork do repositório. Deixe a opção `Copy the master branch only` marcada como no print para copiar apenas a branch master. Clique em `Create Fork`.
 
 ![](img/fork2-1.png)
 

@@ -908,10 +908,9 @@ trabalho-final.zip
     │   ├── 05_optimize.sql
     │   └── 06_query_executiva.sql
     ├── prints/
-    │   ├── 01_glue_crawler_3_tabelas.png       (Tarefa 2: console Glue mostrando clientes/pedidos/pedidos_delta)
-    │   ├── 02_show_create_iceberg.png          (Tarefa 3: SHOW CREATE TABLE pedidos_iceberg com TBLPROPERTIES Iceberg)
-    │   ├── 03_count_apos_merge.png             (Tarefa 6: SELECT COUNT(*) FROM pedidos_iceberg = 100003)
-    │   └── 04_top5_clientes.png                (Tarefa 8: resultado das 5 linhas da query executiva)
+    │   ├── 01_show_create_iceberg.png          (Tarefa 3: SHOW CREATE TABLE pedidos_iceberg com TBLPROPERTIES Iceberg)
+    │   ├── 02_count_apos_merge.png             (Tarefa 6: SELECT COUNT(*) FROM pedidos_iceberg = 100003)
+    │   └── 03_top5_clientes.png                (Tarefa 8: resultado das 5 linhas da query executiva)
     └── DECISION.md
 ```
 
@@ -925,7 +924,7 @@ trabalho-final.zip
 
 <a id="passo-22"></a>
 
-**22.** Na **máquina local de um do grupo** (Windows, Mac ou Linux), crie uma pasta `trabalho-final/` com os 11 arquivos exatamente como na estrutura acima — use o gerenciador de arquivos do SO. Não há comando padrão entre os 3 sistemas, então faça pelo Explorer / Finder / Nautilus mesmo.
+**22.** Na **máquina local de um do grupo** (Windows, Mac ou Linux), crie uma pasta `trabalho-final/` com os 10 arquivos exatamente como na estrutura acima — use o gerenciador de arquivos do SO. Não há comando padrão entre os 3 sistemas, então faça pelo Explorer / Finder / Nautilus mesmo.
 
 <details>
 <summary><b>⚠ Se faltar arquivo: revise as Tarefas 2-9</b></summary>
@@ -939,10 +938,9 @@ trabalho-final.zip
 | `04_merge_delta.sql` | Tarefa 6 (passos 13 e 14) |
 | `05_optimize.sql` | Tarefa 7 (passo 17) |
 | `06_query_executiva.sql` | Tarefa 8 (passo 19) |
-| `01_glue_crawler_3_tabelas.png` | Tarefa 2 (depois do passo 4 — console Glue) |
-| `02_show_create_iceberg.png` | Tarefa 3 (depois do passo 7 — `SHOW CREATE TABLE pedidos_iceberg`) |
-| `03_count_apos_merge.png` | Tarefa 6 (depois do passo 15 — `COUNT(*) = 100003`) |
-| `04_top5_clientes.png` | Tarefa 8 (depois do passo 19) |
+| `01_show_create_iceberg.png` | Tarefa 3 (depois do passo 7 — `SHOW CREATE TABLE pedidos_iceberg`) |
+| `02_count_apos_merge.png` | Tarefa 6 (depois do passo 15 — `COUNT(*) = 100003`) |
+| `03_top5_clientes.png` | Tarefa 8 (depois do passo 19) |
 | `DECISION.md` | Tarefa 9 (passo 21) |
 
 </blockquote>
